@@ -1,0 +1,30 @@
+.main-footer {
+    color: black;
+    background-color: white;
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 10px solid rgb(254, 215, 2);
+   }
+
+  p{
+    color: black;
+  }
+
+  .backtotop_button button{
+    width: 20%;
+    background-color: black;
+    color: white;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .backtotop_button button:hover{
+    width: 20%;
+    background-color: rgb(254, 215, 2);
+    color: white;
+    height: 50px;
+    font-size: 20px;
+  }
+

@@ -1,0 +1,110 @@
+body {
+  overflow-x: hidden;
+}
+
+.about{
+    height: 0vh;
+    display: flex;
+}
+
+.about-title{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254, 215, 2);
+    color: #000000;
+    font-size: 30px;
+}
+
+.about-pages{
+    width: 50%;
+}
+
+.about-pages div{
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    
+}
+
+.about-pages div> p{
+    width: 80%;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+#pinContainer {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+  }
+  #pinContainer .panel {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+  }
+  .panel .text-trans {
+    position: relative;
+    display: block;
+    top: 50%;
+    font-size: 80px;
+  }
+  .panel .img-trans {
+    position: relative;
+    display: block;
+    top: 0;
+    font-size: 80px;
+  }
+  
+  
+  .panel.blue {
+    background-color: #75a166;
+  }
+  
+  .panel.turqoise {
+    background-color: #f7f79b;
+  }
+  
+  .panel.green {
+    background-color: rgb(254, 215, 2);
+  }
+  
+  .about-headers {
+      font-size: 50px;
+  }
+
+  .eagle {
+    position: relative;
+    display: block;
+    width: 100%;
+    top: 0;
+    height: 100vh;
+    
+     
+    
+    /*max-width: 100%;
+    max-height: 100vh;
+    margin: auto;*/
+  }
+
+  .bear {
+    max-width:100%;
+  height:auto;
+  max-height:100%;
+  }
+  
+  .img-gal {
+    width: 50%;
+  }

@@ -1,0 +1,108 @@
+body {
+    background-color: rgb(207, 238, 238);
+}
+.carousel{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 60%;
+    height: 700px;
+}
+
+.carouselInner{
+    height: 100%;
+    width: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.carouselInner .left {
+    display: flex;
+    width: 60px;
+    align-items: center;
+    background-color: rgb(0,0,0, 0.4);
+    
+}
+
+.carouselInner .left:hover {
+    background-color: rgba(114, 114, 114, 0.6);
+    width: 90px;
+    transition: all 0.3s ease-out;
+    
+}
+.carouselInner .center {
+    
+}
+
+.carouselInner .right {
+    /* need to use flex display so that this container 
+    can apply flex properties on its children too */
+    display: flex;
+    align-items: center;
+    width: 60px;
+    background-color: rgb(0,0,0, 0.4);
+}
+
+.carouselInner .right:hover {
+    background-color: rgba(114, 114, 114, 0.4);
+    width: 90px;
+    transition: all 0.3s ease-out;
+}
+
+.center h1{
+    color: white;
+    font-size: 80px;
+    font-weight: 1000;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 4px 0 #000,
+      1px 1px 0 #000;
+}
+
+.center p{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+}
+
+.right:hover{
+    transition: all 0.3s ease-out;
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+.left:hover{
+    transition: all 0.3s ease-out;
+    color: yellowgreen;
+    cursor: pointer;
+}
+
+.icon_container{
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 80%;
+
+}
+.icon_container:hover{
+    background-color: rgb(0,0,0, 0.6);
+    border-radius: 80%;
+    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-in;
+
+    
+}
+
+

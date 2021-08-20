@@ -1,0 +1,21 @@
+#error-container{
+    color: green;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    left: 0;
+  }
+  
+  .right {
+    right: 0;
+  }

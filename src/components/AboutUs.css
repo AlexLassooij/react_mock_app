@@ -1,0 +1,268 @@
+body {
+    background-color: rgb(14, 14, 14);
+    overflow-x: hidden;
+}
+
+.primary_container_ab{
+    background-color:rgb(14, 14, 14);
+    display: flex;
+    width: 100%;
+    z-index: -1;
+    border-top: 10px solid rgb(254, 215, 2);
+    
+}
+
+
+.bannerContainer_ab{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    height: 81vh;
+    top: 0;
+    left: 0;
+
+}
+
+.bannerVideo_ab{ 
+    position: relative;
+    align-self: auto;
+    max-width: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    height: 81vh;
+    z-index: 0;
+}
+  
+
+
+.gradient_ab {
+    background-image: linear-gradient(to bottom, transparent, 60%, rgb(14, 14, 14) );
+    width: 100%;
+    height: 81vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: 1;    
+
+  }
+  
+   
+.bannerHeader_ab{
+    text-transform: capitalize;
+    text-align: bottom;
+    position: relative;
+    transform: translateY(-240px);
+    color: white;
+    font-size: 80px;
+    opacity: 85%;
+    height: 100%;
+    z-index: 2;
+    
+
+}
+
+.master_container{
+    background-color:rgb(14, 14, 14);
+    display: block;
+    flex: 6;
+    margin: 0px 10px 20px 20px;
+    padding-top: 110px;
+    width: 100%;    
+}
+
+
+.main_section{
+    padding-bottom: 60px;
+}
+
+.about_us_header{
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin: 10px 0 40px 0;
+    color: rgb(254, 215, 2);
+    font-weight: 900;
+}
+
+
+.styleBorder{
+    width: 1px;
+    border-left: solid rgb(254, 215, 2);
+    border-width: 4px;
+    margin: 30px 0 60px 0;
+}
+
+.master_side_container{
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    margin: 0px 0px 0px 15px;
+    background-color: white;
+    padding-top: 110px;
+    border-width: 10px;
+}
+
+
+.mini_bio_container{
+    display: flex;
+    padding-top: 20px;
+}
+
+.side_container{
+    flex: 1;
+    background-color: none;
+    z-index: 3;
+}
+
+.text_content{
+    text-align: left;
+    color: white;
+    font-weight: 600;
+    line-height: 35px;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+p{
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0;
+}
+
+
+.text_block{
+    margin: 10px 10px 45px 10px;
+    padding: 15px 15px 15px 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_content ul{
+    list-style: none;
+}
+
+.text_content ul li{
+    padding-bottom: 20px;
+}
+
+.textContentSubHeader{
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+
+.contact_form:not(label) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2
+}
+
+.input_field{
+    width: 40%;
+    background-color: white;
+    color: black;
+    margin: 5px 0;
+}
+
+
+.ihatecssevenmore {
+    color: rgb(254, 215, 2);
+    transform: translateX(-210px);
+    font-size: 20px;
+    
+}
+
+.ihatecss{
+    color: rgb(254, 215, 2);
+    transform: translateX(-170px);
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.submit_button{
+    margin-top: 30px;
+    width: 15%;
+    height: 40px;
+    background-color: rgb(254, 215, 2);
+    color: black;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.submit_button:hover{
+    cursor: pointer;
+}
+
+.social_media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.social_icon{
+    width: 100px;
+    margin: 0 40px 5px 40px; 
+} 
+
+
+.sponsor_box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sponsor_subbox{
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sponsor_image{
+    max-height: 140px;
+    margin: 0 30px;
+}
+
+#contact_table tr {
+    font-size: 24px;
+    color: black;
+    line-height: 60px;
+    text-align: left;
+    
+}
+#contact_table td{
+    font-family: 'Oswald', sans-serif;
+}
+
+#contact_table a:hover{
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    color: black;
+}
+
+#contact_table{
+    padding: 60px 0;
+}
+
+.primary_container_ab a {
+    text-decoration: none;
+    color: black;
+}
+
+#contact_table a{
+    text-transform: lowercase;
+    font-weight: 400;
+    color: black
+}
+
+.section_link:hover{
+    cursor: pointer;
+}

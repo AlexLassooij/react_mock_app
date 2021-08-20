@@ -1,0 +1,69 @@
+.mini_bio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.photo{
+    max-width: 60%;
+    max-height: 60%;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+.photo_name{
+    text-align: center;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+}
+
+.showBio.active{
+    display: block;
+    transition: all ease-in 0.3s;
+    
+
+}
+
+.showBio{
+    display: none;
+    transition: all ease-in 0.3s;
+}
+
+.bio-icon{
+    cursor: pointer;
+    margin: 0 10px;
+    
+}
+
+.bio_text{
+    color: black;
+}
+
+.bioDescription{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 10px;
+    display: none;
+    transition: all ease-in 0.3s;
+
+
+}
+
+.bioDescription.active{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 10px;
+    display: block;
+    transition: all ease-in 0.3s;
+
+
+}
